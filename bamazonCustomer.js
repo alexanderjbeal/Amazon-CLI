@@ -57,7 +57,7 @@ const selectQuantity = async (product) => {
         if (isNaN(Number(quantity.request))) {
             throw new Error('Your request is not valid. Please try again.');
         } else if (Number(quantity.request) > product.quantity) {
-            throw new Error('There is not enough inventory. Please try again.')
+            throw new Error('There is not enough inventory. Please check back soon or select a lower quantity.')
         } else {
             return Number(quantity.request);
         }
