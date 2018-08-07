@@ -43,12 +43,20 @@ This app will allow the user to:
 * Select a quantity for the selected product.
 * Finalize purchase and confirm your order
 
-** Command ** 
+### Command
 
+```
+node bamazonCustomer.js
+```
 
+*Example: Product List/Quantity Selection*
 
 <img src="images/bamazon-cli-customer.gif">
 
-Product Inventory has been updated
+*Example: Inventory Updates*
 
 <img src="images/bamazon-cli-customer-02.gif">
+
+## Author
+
+* [Alexander Beal](https://github.com/alexanderjbeal)
