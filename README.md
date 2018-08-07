@@ -49,7 +49,7 @@ This app will allow the user to:
 node bamazonCustomer.js
 ```
 
-*Example: Product List/Quantity Selection*
+*Example: Product List/Quantity Selection/Order Confirmed*
 
 <img src="images/bamazon-cli-customer.gif">
 
