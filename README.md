@@ -61,6 +61,6 @@ node bamazonCustomer.js
 
 * [Alexander Beal](https://github.com/alexanderjbeal)
 
-## Acknowledgements
+## Acknowledgments
 
 * Thanks to Jolie and Eric for inspiration and troubleshooting
