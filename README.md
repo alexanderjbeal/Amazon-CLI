@@ -60,3 +60,7 @@ node bamazonCustomer.js
 ## Author
 
 * [Alexander Beal](https://github.com/alexanderjbeal)
+
+## Acknowledgements
+
+* Thanks to Jolie and Eric for inspiration and troubleshooting
