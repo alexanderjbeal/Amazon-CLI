@@ -1,5 +1,6 @@
 const mysql = require('mysql');
 
+// Connected to MySQL Workbench
 const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
@@ -8,6 +9,8 @@ const connection = mysql.createConnection({
     database: "bamazon"
   });
 
+// Function to display product from MySQL
+// item_id AS 'Item ID changes display name for console.table
   const showProducts = () => {
     return new Promise((resolve, reject) => {
         const sql = `SELECT
@@ -25,6 +28,7 @@ const connection = mysql.createConnection({
     });
   };
 
+// Function to grab the item id
   const searchID = (id) => {
     return new Promise ((resolve, reject) => {
         const sql = `SELECT 
@@ -37,6 +41,7 @@ const connection = mysql.createConnection({
     });
 };
 
+// Function to update inventory for selected quantity
 const updateStore = (id, quantity) => {
     return new Promise ((resolve, reject) => {
         const sql = `UPDATE products
@@ -49,6 +54,7 @@ const updateStore = (id, quantity) => {
     });
 }
 
+// Exports functins to be used in bamazonCustomer.js
   module.exports = {
       connection,
       showProducts,
