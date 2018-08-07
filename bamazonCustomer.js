@@ -83,7 +83,7 @@ const purchase = async (product, quantity) => {
         \rTotal: $${total.toFixed(2)}
         \n`;
     } catch (err) {
-        throw new Error('Something went wrong. Unable to process your purchase.');
+        throw new Error('Unable to process your purchase. Please try again.');
     }
 };
 
