@@ -54,7 +54,7 @@ const updateStore = (id, quantity) => {
     });
 }
 
-// Exports functins to be used in bamazonCustomer.js
+// Export functions -> bamazonCustomer.js
   module.exports = {
       connection,
       showProducts,
